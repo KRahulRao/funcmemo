@@ -9,17 +9,17 @@
 
 npm install funcmemo
 
-#For storing funcions-
+#For storing your funcions-
 
 var app = require('funcmemo');
 app.functCache.add("Your function name");
 
-#For retriving  funcions-
+#For retrieving your  funcions-
 
 var app = require('funcmemo');
 app.functCache.getFunc("Your function name");
 
-#For updating funcions-
+#For updating your funcions-
 
 var app = require('funcmemo');
 app.functCache.updateFunc("Your function name");
